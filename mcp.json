@@ -7,15 +7,19 @@
         "GITHUB_PERSONAL_ACCESS_TOKEN": "your github personal access token"
       }
     },
+    "gitlab": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gitlab"],
+      "env": {
+        "GITLAB_PERSONAL_ACCESS_TOKEN": "your gitlab personal access token",
+        "GITLAB_API_URL": "https://gitlab.com/api/v4"
+      }
+    },
     "mcp-feedback-enhanced": {
       "command": "uvx",
-      "args": [
-        "mcp-feedback-enhanced@latest"
-      ],
+      "args": ["mcp-feedback-enhanced@latest"],
       "timeout": 600,
-      "autoApprove": [
-        "interactive_feedback"
-      ]
+      "autoApprove": ["interactive_feedback"]
     },
     "context7": {
       "url": "https://mcp.context7.com/mcp",
@@ -23,9 +27,7 @@
     },
     "playwright": {
       "command": "npx",
-      "args": [
-        "@playwright/mcp@latest"
-      ]
+      "args": ["@playwright/mcp@latest"]
     }
   }
 }

@@ -16,12 +16,9 @@
       }
     },
     "markitdown-mcp": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "markitdown-mcp"
-            ]
-        },
+      "command": "npx",
+      "args": ["-y", "markitdown-mcp"]
+    },
     "mcp-feedback-enhanced": {
       "command": "uvx",
       "args": ["mcp-feedback-enhanced@latest"],

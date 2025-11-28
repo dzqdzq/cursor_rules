@@ -1,0 +1,10 @@
+---
+globs: *.ts
+---
+- 使用 bun 作为包管理器。脚本详见 [package.json](mdc:backend/reddit-eval-tool/package.json)
+- 文件名使用 kebab-case 命名
+- 函数和变量名使用 camelCase 命名
+- 硬编码常量使用 UPPERCASE_SNAKE_CASE 命名
+- 优先使用 `function foo()` 而非 `const foo = () =>`
+- 使用 `Array<T>` 而非 `T[]`
+- 使用命名导出而非默认导出,例如 (`export const variable ...`, `export function `)
